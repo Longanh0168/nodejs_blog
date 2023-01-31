@@ -23,7 +23,7 @@
     "url": "https://github.com/Longanh0168/nodejs_blog/issues"
   },
   "homepage": "https://github.com/Longanh0168/nodejs_blog#readme",
-    "lint-staged": {
+  "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
@@ -36,7 +36,7 @@
     "express-handlebars": "^6.0.7"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
+    "husky": "^4.2.5",
     "lint-staged": "^13.1.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
