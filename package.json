@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-              "scripts": {
+  "scripts": {
     "beautiful": "lint-staged",
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-            "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Longanh0168/nodejs_blog.git"
   },
@@ -23,7 +23,7 @@
     "url": "https://github.com/Longanh0168/nodejs_blog/issues"
   },
   "homepage": "https://github.com/Longanh0168/nodejs_blog#readme",
-  "lint-staged": {
+    "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
